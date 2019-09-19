@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 19, 2019, 8:12:24 AM
+    Author     : luong
+*/
+
+/* 
+    Color:
+    #f5f5f5: light grey;
+    #cccccc: grey boreder field set;
+    #ec961d: orange background legend
+    #e5e5e5: border legend
+    #245580: button linear down
+    #518dc1: button linear top
+    #245580: button border;
+    #1f578a: button hover;
+
+*/
+
+
+/*----------------------------------------*/
+/*Common*/
+/*----------------------------------------*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*----------------------------------------*/
+/*Heading*/
+/*----------------------------------------*/
+
+.heading-primary {
+
+}
+
+.heading-legend {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*----------------------------------------*/
+/*Button*/
+/*----------------------------------------*/
+
+.btn {
+    cursor: pointer;
+    border: 1px solid #245580;
+}
+
+.btn-primary {
+    background: linear-gradient(#518dc1, #245580);
+    padding: 6px 12px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.btn-primary:hover{
+    background: #1f578a;
+    border: 1px solid #1a4a73;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 50%;
+}
+
+/*----------------------------------------*/
+/*Header*/
+/*----------------------------------------*/
+
+.nav {
+    width: 100%;
+    min-height: 20px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------*/
+/*Login*/
+/*----------------------------------------*/
+
+.login-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.parents, .fpters {
+    border: 1px solid #cccccc;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+fieldset a {
+    text-decoration: none;
+}
+
+fieldset a:active,
+fieldset a:visited {
+
+}
+
+legend {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 0;
+
+}
+
+legend span {
+    background: linear-gradient(#f2b868,#ec961d);
+    padding: 3px 8px;
+    border-radius: 4px;
+
+}
+
+.fieldset-content {
+    height: 100px;
+    position: relative;
+}
+
+.fieldset-content-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+
+.fieldset-content-wrapper select {
+    width: 170px;
+    height: 32px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    background: linear-gradient(white,#e2e2e2);
+    border: 1.2px solid #cccccc;
+    padding-left: 15px;
+}
+
+.fieldset-content-wrapper select:hover {
+    background: #d6d6d6;
+    border: 1.2px solid #929292;    
+}
+
+
+.fpters-login {
+    display: inline-block;
+    width: 155px;
+
+    border: 1px solid blue;
+}
+
+.logo-google{
+    display: inline-block
+}
+
+#google-logo {
+    font-size: 22px;
+}
+
+.logo-google {
+    width: 20px;
+    border-right: 1px solid blue;
+}
+
+
+ion-icon {
+    color: #DB4437;
+}
+
+/*----------------------------------------*/
+/*Prefooter*/
+/*----------------------------------------*/
+
+.prefooter span {
+    font-size: 13px;
+}
+
+/*----------------------------------------*/
+/*Footer*/
+/*----------------------------------------*/
+
+.footer {
+    text-align: center;
+    padding-bottom: 9px;
+    border-top: 1px solid  #e5e5e5;
+    border-bottom: 1px solid  #e5e5e5;
+
+}
+
+.footer span {
+    font-size: 12px;
+
+}
+
+.footer span a{
+    text-decoration: none;
+}
+
+.footer span a:hover{
+    text-decoration: underline;
+}
+
+.footer span a:visited,
+.fotter span a:active {
+
+}
+
+
+/*----------------------------------------*/
+/*Homepage*/
+/*----------------------------------------*/
+
+/*
+    Legend "News" bottom: #0f4086;
+    Legend "News" top: #08a4fd;
+
+    Legend "Info" bottom: #ef8d01;
+    Legend "Info" top: #ffb72b;
+*/
+
+.container-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    grid-gap: 60px;
+}
+
+.news fieldset,
+.academic-info fieldset{
+    border: 1px solid #e6e9ea;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e6e9ea;
+}
+
+.news legend,
+.academic-info legend{
+    border: none;
+    width: auto;
+    padding: 3px 45px;
+    color: white;
+    font-size: 24px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.news legend {
+    background: linear-gradient(to bottom, #08a4fd, #0f4086);
+}
+
+.academic-info legend {
+    background: linear-gradient(to bottom, #ffb72b, #ef8d01);
+}
