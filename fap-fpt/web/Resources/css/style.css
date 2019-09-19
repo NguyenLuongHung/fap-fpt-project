@@ -47,6 +47,11 @@ body {
 
 }
 
+.heading-sub-primary {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .heading-legend {
     color: white;
     font-size: 17px;
@@ -104,6 +109,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -244,11 +250,19 @@ ion-icon {
     Legend "Info" top: #ffb72b;
 */
 
+/*=========Fieldset and legend==========*/
+
+.academic-info-content {
+ margin: 0 20px;   
+}
+
 .container-wrapper {
     width: 100%;
     display: grid;
     grid-template-columns: 4fr 7fr;
     grid-gap: 60px;
+    margin-top: 40px;
+    margin-bottom: 90px;
 }
 
 .news fieldset,
@@ -277,4 +291,90 @@ ion-icon {
 
 .academic-info legend {
     background: linear-gradient(to bottom, #ffb72b, #ef8d01);
+}
+
+/*================News=================*/
+.news-content input[type=text]{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.news-content input[type=submit]{
+    background: transparent;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.news-content {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.news-list li {
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.publish-date {
+    color: #737373;
+}
+
+.news-list a {
+    font-size: 14px;
+    color: #4169e1;
+    font-weight: 500;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.btn-more {
+    color: #4169e1;
+}
+
+/*=========Academic Infomation==========*/
+
+
+
+.app-info-access,
+.feedback-report-access {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+
+}
+
+.app-info-access li,
+.feedback-report-access li {
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #234166;
+}
+
+
+.app-info-access a,
+.feedback-report-access a {
+    color: #337ab7;
+    font-size: 13px;
+    
+}
+
+.app-info-access a:hover,
+.feedback-report-access a:hover {
+    text-decoration: underline;
+}
+
+.app-info-access a:visited,
+.app-info-access a:active,
+.feedback-report-access a:visited,
+.feedback-report-access a:active{
+    color: #337ab7;
+}
+
+.app-info-access h3,
+.feedback-report-access h3 {
+    text-align: center;
+}
+
+.app-info-access {
+    border-bottom: 1px solid #f0f0f0;
 }
