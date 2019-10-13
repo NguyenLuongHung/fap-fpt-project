@@ -17,7 +17,7 @@
             <%@include file="../../com.fap.fpt.templates/header.jsp" %>
                 
             </div>
-
+            <h2 class="heading-primary">Thông tin dành cho phụ huynh</h2>
             <div class="container-wrapper">
                 <div class="news">
                     <fieldset>
@@ -73,45 +73,17 @@
                         <div class="academic-info-content">
                             <div class="app-info-access">
                                 <div class="app-access">
-                                    <h3 class="heading-sub-primary">Registration/Application(Thủ tục/đơn từ)</h3>
+                                    <h3><span class="heading-sub-primary">Information Access(Tra cứu thông tin)</span></h3>
                                     <ul>
-                                        <li><a href="#">Suspend one semester to take repeated course</a> | <a href="#">Cancel</a> (Xin tạm hoãn tiến độ một học kỳ để học lại | Hủy bỏ việc xin tạm hoãn)</li>
-                                        <li><a href="#">Suspend one semester</a> | <a href="#">Cancel</a> (Xin tạm nghỉ một học kỳ | Hủy bỏ việc xin tạm nghỉ)</li>
-                                        <li><a href="#">Move out class, suspend subject</a> | <a href="#">Cancel</a> (Xin chuyển lớp, tạm ngừng môn học, ...)</li>
-                                        <li><a href="#">Register extra courses</a> (Đăng ký môn học đi chậm kỳ)</li>
-                                        <li><a href="#">Register to improve mark</a> (Đăng ký học cải thiện điểm)</li>
-                                        <li><a href="#">Register to repeat a course</a> (Đăng ký học lại)</li>
-                                        <li><a href="#">Cancel registration</a> (Hủy đăng ký học)</li>
-                                        <li><a href="#">Register Free Elective Courses</a> (Đăng ký môn tự chọn)</li>
-                                        <li><a href="#">Send Application</a>(Gửi đơn) | <a href="#">View Application</a> (Xem đơn)</li>
+                                        <li><a href="#">Weekly timetable</a>(Thời khóa biểu từng tuần của sinh viên)</li>
+                                        <li><a href="#">Attendance report</a>(Số liệu điểm danh của sinh viên)</li>
+                                        <li><a href="#">Mark Report</a> (Báo cáo điểm chi tiết của sinh viên)</li>
                                     </ul>
                                 </div>
                                 <div class="info-access">
                                     <h3><span class="heading-sub-primary">Information Access(Tra cứu thông tin)</span></h3>
                                     <ul>
-                                        <li><a href="#">University timetable</a> (Lịch học)</li>
-                                        <li><a href="#">Tuition fee per course</a> (Biểu học phí)</li>
-                                        <li><a href="#">Weekly timetable</a>  (Thời khóa biểu từng tuần)</li>
-                                        <li><a href="#">Blended Online Course (BLOC) Schedules</a> (Lịch học các môn theo phương pháp BLOC trong kỳ)</li>
-                                        <li><a href="#">Class timetable</a> (Xem thời khóa biểu của một lớp)</li>
-                                        <li><a href="#">View exam schedule</a> (Xem lịch thi)</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="feedback-report-access">
-                                <div class="feedback-access">
-                                    <h3 class="heading-sub-primary">Feedback(Ý kiến)</h3>
-                                    <ul>
-                                        <li><a href="#">Feedback about teaching</a> (Ý kiến về việc giảng dạy)</li>
-                                    </ul>
-                                </div>
-                                <div class="report-access">
-                                    <h3><span class="heading-sub-primary">Reports(Báo cáo)</span></h3>
-                                    <ul>
-                                        <li><a href="#">Attendance report</a>  (Báo cáo điểm danh)</li>
-                                        <li><a href="#">Mark Report</a> (Báo cáo điểm)</li>
-                                        <li><a href="#">Academic Transcript</a> (Báo cáo điểm)</li>
+                                        <li><a href="#">Academic transcript</a> (Bảng điểm quá trình của sinh viên)</li>
                                         <li><a href="#">Curriculum</a> (Khung chương trình)</li>
                                     </ul>
                                 </div>
@@ -120,7 +92,6 @@
                     </fieldset>
                 </div>
             </div>
-
             <%@include file="../../com.fap.fpt.templates/prefooter.jsp" %>
             <%@include file="../../com.fap.fpt.templates/footer.jsp" %>
         </div>
